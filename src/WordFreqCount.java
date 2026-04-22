@@ -14,6 +14,8 @@ public class WordFreqCount {
     }
 
     public static void main (String[] args){
-
+        System.out.println(wordCount(new String[]{"a", "b", "a", "c", "b"}));
+        System.out.println(wordCount(new String[]{"c", "b", "a"}));
+        System.out.println(wordCount(new String[]{"c", "c", "c", "c"}));
     }
 }
