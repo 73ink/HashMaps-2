@@ -15,6 +15,8 @@ public class FirstCharacterWord {
         return groupedCharacterMap;
     }
     public static void main (String[] args){
-
+        System.out.println(firstChar(new String[]{"salt", "tea", "soda", "toast"}));
+        System.out.println(firstChar(new String[]{"aa", "bb", "cc", "aAA", "cCC", "d"}));
+        System.out.println(firstChar(new String[]{}));
     }
 }
