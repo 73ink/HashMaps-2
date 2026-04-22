@@ -9,6 +9,8 @@ public class ZeroValueWordMap {
         return zeroValueMap;
     }
     public static void main(String[] args){
-
+        System.out.println(word0(new String[]{"a", "b", "a", "b"}));
+        System.out.println(word0(new String[]{"a", "b", "a", "c", "b"}));
+        System.out.println(word0(new String[]{"c", "b", "a"}));
     }
 }
