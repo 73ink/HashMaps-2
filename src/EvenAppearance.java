@@ -11,6 +11,9 @@ public class EvenAppearance {
             } else {
                 appearanceTracker.put(currentWord, 1);
             }
+            if (appearanceTracker.get(currentWord) % 2 == 0) {
+                finalText += currentWord;
+            }
         }
         return finalText;
     }
