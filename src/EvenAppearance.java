@@ -18,6 +18,8 @@ public class EvenAppearance {
         return finalText;
     }
     public static void main(String[] args) {
-
+        System.out.println(wordAppend(new String[]{"a", "b", "a"}));
+        System.out.println(wordAppend(new String[]{"a", "b", "a", "c", "a", "d", "a"}));
+        System.out.println(wordAppend(new String[]{"a", "", "a"}));
     }
 }
